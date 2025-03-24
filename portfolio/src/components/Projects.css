@@ -1,0 +1,19 @@
+.projects {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f8f9fa;
+  }
+  
+  .projects h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .projects-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  

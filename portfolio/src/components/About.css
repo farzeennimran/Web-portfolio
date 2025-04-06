@@ -1,0 +1,67 @@
+/* About Me Section Styling */
+.about {
+    background: #facece;
+    padding: 60px 20px;
+    text-align: center;
+    height: 100vh;
+  }
+  
+  .about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-pic {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #fa2ba4;
+  }
+  
+  .about-content {
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #ff57b9;
+  }
+  
+  .about p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    color: #555;
+  }
+  
+  .about h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+    margin-top: 50px;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .skills-list li {
+    background: #459cf8;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 1rem;
+    border: 3px solid #fa2ba4;
+  }
+  

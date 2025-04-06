@@ -1,0 +1,46 @@
+/* Hero Section Styling */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to right, #1f2240, #99a2f2);
+    color: white;
+    padding: 20px;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+  }
+  
+  .hero h1 {
+    font-size: 3.4rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero h1 span {
+    color: #ff57b9;
+    
+  }
+  
+  .hero p {
+    font-size: 2.3rem;
+    margin-bottom: 3%;
+  }
+  
+  .cta-button {
+    background-color: #ff57b9;
+    color: black;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 1rem;
+    text-decoration:none;
+    border-radius: 15px;
+    transition: 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff57b9;
+  }
+  
